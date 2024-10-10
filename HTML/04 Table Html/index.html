@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Table</h1>
     <table>
-        <tr><th>Name</th><th>Father Name</th> <th>Class</th></tr>
-        <tr><td>Muhammad Roohan</td><td>M Ashraf</td><td>7th</td></tr>
+      <tr>
+        <th></th>
+        <th>9am</th>
+        <th>10am</th>
+        <th>11am</th>
+        <th>12am</th>
+      </tr>
+      <tr>
+        <th>Monday</th>
+        <td colspan="2">Geography</td>
+        <td>Math</td>
+        <td>Art</td>
+      </tr>
+      <tr>
+        <th>Tuesday</th>
+        <td colspan="3">Gym</td>
+        <td>Home Ec</td>
+      </tr>
     </table>
-</body>
+
+    <h2>Row Spaning Column</h2>
+    <table>
+        <!-- HEader -->
+        <tr>
+            <th></th>
+            <th>Abc</th>
+            <th>CBA</th>
+            <th>FBA</th>
+        </tr>
+        <!-- Header End -->
+        <tr>
+            <th>6pm to 7pm</th>
+            <td rowspan="2">Movie</td>
+            <td>comedy</td>
+            <td>News</td>
+        </tr>
+        <tr>
+            <th>7 8</th>
+            <td>news</td>
+            <td>Comedy</td>
+
+        </tr>
+    </table>
+  </body>
 </html>
