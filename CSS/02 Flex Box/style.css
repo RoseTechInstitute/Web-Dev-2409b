@@ -1,0 +1,25 @@
+.container{
+    background-color: aqua;
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 4em;
+    align-items: center;
+}
+.box1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.box2{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}
+.box3{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
