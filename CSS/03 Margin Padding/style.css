@@ -1,0 +1,13 @@
+.box{
+
+    background-color: gray;
+    width: 1000px;
+    height: 500px;
+    margin: 100px;
+}
+.redBox{
+    height: 50px;
+    margin: 100px 50px 20px 70px;
+    background-color: red;
+
+}

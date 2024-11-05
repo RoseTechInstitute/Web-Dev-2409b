@@ -1,0 +1,26 @@
+nav{
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+}
