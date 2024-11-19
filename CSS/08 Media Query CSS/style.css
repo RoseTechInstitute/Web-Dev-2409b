@@ -1,0 +1,19 @@
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+}
+
+/* Tablet size styling */
+@media only screen and (max-width:768px) {
+    
+    .box{
+        background-color: blue;
+    }
+
+
+}
+
+
+
+/* mobile styling  */
